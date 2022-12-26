@@ -29,8 +29,8 @@ p{
     padding: 3% 15% 7%;
 }
 #title{
-    background-color: #ff4c68;
-    color: white;
+    background-color: #C58940;
+    color: #FAF8F1;
 }
 .navbar{
     padding:0 0 4.5rem;
@@ -65,22 +65,22 @@ p{
     padding: 5%;
 }
 .icon{
-    color: #ef8172;
+    color: #E5BA73;
     margin-bottom: 2rem;
 }
 .icon:hover{
-    color: #ff4c68;
+    color: #FAEAB1;
 }
 #features{
     padding: 7% 11%;
-    background-color: white;
+    background-color: #FAF8F1;
     position: relative;
     
 }
 #testimonials{
     text-align: center;
-    background-color:#ef8172 ;
-    color: white;
+    background-color:#E5BA73 ;
+    color: #FAF8F1;
 }
 .testimonials-image{
     width: 10%;
@@ -91,7 +91,7 @@ p{
     padding: 7% 15%;
 }
 #press{
-    background-color:#ef8172 ;
+    background-color:#E5BA73 ;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -102,6 +102,7 @@ p{
 #pricing{
     padding: 100px;
     text-align: center;
+    background-color: #FAF8F1;
 }
 .card-group{
     padding: 3% 2%;
@@ -119,21 +120,24 @@ p{
     }
 }
 #cta{
-    background-color: #ff4c68;
+    background-color: #C58940;
     text-align: center;
     padding: 7% 15%;
 
 }
 .cta-font{
-    color: white;
+    color: #FAF8F1;
     font-size: 4rem;
     line-height: 1.5;
 }
 #footer{
     text-align: center;
-    background-color: white;
+    background-color: #FAF8F1;
     padding: 7% 15%;
 }
 .social{
     margin: 20px 10px;
+}
+.card{
+    background-color: #FAF8F1;
 }
