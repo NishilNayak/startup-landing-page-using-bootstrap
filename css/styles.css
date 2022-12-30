@@ -1,20 +1,20 @@
 body{
     font-family: montserrat;
 }
-h1{
+h1,h2,h3,h4,h5,h6{
     font-family: montserrat;
+}
+h1{
     font-weight: bolder;
     font-size: 3.5rem;
     line-height: 1.5;
 }
 h2{
-    font-family:montserrat;
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
 }
 h3{
-    font-family: montserrat;
     font-weight: bolder;
     font-size: 1.5rem;
 }
@@ -105,10 +105,23 @@ p{
     background-color: #FAF8F1;
 }
 .card-group{
-    padding: 3% 2%;
+    padding: 3% 20%;
+    
+   
 }
 .card{
     height:100%;
+    width: 100%;
+    
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardbutton{
+    margin-top: auto;
 }
 @media ( max-width : 1028px ) {
     #title{
@@ -117,6 +130,24 @@ p{
     .title-image{
         position: static;
         transform: rotate(0);
+    }
+    p{
+        font-size: 2.3rem;
+    }
+    h1{
+        font-size: 4.5rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    .navbar-brand{
+        font-size: 3.5rem;
+    }
+    .nav-link{
+        font-size: 2.2rem;
     }
 }
 #cta{
